@@ -1,9 +1,8 @@
-
- 
 # Last Updated:     03.22.2020
 # License:          https://www.mozilla.org/en-US/MPL/2.0/
 # Project Homepage: https://hermanjust.in/
 # Title:            Herm's Ad Black List
+# Version:          0.1
 ###abAlert
 ###ad
 ###ad-footer
@@ -379,3 +378,17 @@
 ||youtube.com/pagead/^
 ||z-na.amazon-adsystems.com^
 ||zdbb.net^
+||gamepk.us^
+||www.gamepk.us^
+||adsperfection.imp2aff.com^
+||imp2aff.com^
+||clk.myiads.com^
+||adspade.imp2aff.com^
+||global.edge.bamgrid.com^
+||www.ltv-mob.com^
+||trk12.ligigi.com^
+||us.edge.bamgrid.com^
+||cl.easyjobaccess.com^
+||u.newspro.info^
+||beacons.gvt2.com^
+||fp.msedge.net^
