@@ -1,8 +1,9 @@
-# Last Updated:     03.24.2020
+
+# Last Updated:     03.25.2020
 # License:          https://www.mozilla.org/en-US/MPL/2.0/
 # Project Homepage: https://hermanjust.in/
 # Title:            Herm's Ad Black List
-# Version:          0.1
+# Version:          0.2
 ###abAlert
 ###ad
 ###ad-footer
@@ -15,6 +16,7 @@
 ###banner_full
 ###bottom_ad
 ###bottom_ad_wrapper
+###cliSettingsPopup
 ###cmn_ad_tag_head
 ###consent_blackbar
 ###content-ad-top-zone-contener
@@ -88,6 +90,7 @@
 ##.adsbygoogle
 ##.adslot
 ##.adslug
+##.adtester-container
 ##.adunitcontainer
 ##.advert-txt
 ##.afs_ads
@@ -125,6 +128,7 @@
 ##.dcmads
 ##.div-gpt-ad
 ##.eu-cookie-banner
+##.ezoic-ad
 ##.fa-facebook-square
 ##.fa-twitter-square
 ##.fb-like-box
@@ -188,6 +192,7 @@
 ##.sponsored-text
 ##.styles__container__
 ##.styles__notice__
+##.subscribe-form
 ##.subscribe-header
 ##.taboola
 ##.taboola-frame
@@ -203,6 +208,7 @@
 ##.videoad
 ##.videoads
 ##.widead
+##.widget_mailerlite_widget
 ##.wih-cams-widget
 ##.wih-spl
 ##.xplayer-banner
@@ -218,6 +224,7 @@
 ##a[href*=".purple6401.com/"]
 ##a[href*="facebook.com/sharer/sharer.php?"]
 ##a[href^="/ads/"]
+##a[href^="/anonymous-download/?"][target="_blank"][id]
 ##a[href^="http://vk.com/share.php?"]
 ##a[href^="http://www.digg.com/submit?"]
 ##a[href^="http://www.linkedin.com/shareArticle?"]
@@ -247,6 +254,7 @@
 .com/ads-
 .com/adx/
 .lms-analytics/
+/1clkn/*$script
 /ad-inserter
 /ad-third-party
 /ad-third-party/*
@@ -279,6 +287,7 @@
 /generate_204$other
 /google-tracking/*
 /house-ads/*
+/identica.png
 /js/ads.
 /js/tracking/*
 /lib/tracking/*
@@ -296,6 +305,7 @@
 /shared/ads.
 /show_ads.js
 /show_ads.js$script
+/social-warfare/*
 /svc/comscore/*
 /video/tracking.js
 /wp-content/*facebook.png
@@ -366,6 +376,7 @@ reddit.com##.promotedlink
 ||bugsnag.com^
 ||c.msn.com^
 ||c2.taboola.com^
+||carbonads.com^
 ||casalemedia.com^
 ||cdn.connatix.com^
 ||cdn.cquotient.com^
@@ -378,6 +389,7 @@ reddit.com##.promotedlink
 ||cl.easyjobaccess.com^
 ||clarium.global.ssl.fastly.net^
 ||click.expmediadirect.com^
+||clickiocdn.com^
 ||client-event-reporter.twitch.tv^
 ||client.crisp.chat^
 ||clk.myiads.com^
@@ -402,6 +414,7 @@ reddit.com##.promotedlink
 ||deliver.ptgncdn.com^
 ||demdex.net^
 ||dev.visualwebsiteoptimizer.com^
+||distrowatch.com/images/k/
 ||dlfvgndsdfsn.com^
 ||dotomi.com^
 ||doubleclick.com^
@@ -421,6 +434,7 @@ reddit.com##.promotedlink
 ||expmediadirect.com^
 ||exrtbsrv.com^
 ||extole.io^
+||ezoic.net^
 ||facebook.com/xti.php?
 ||fastly-insights.com^
 ||foresee.com^
@@ -430,6 +444,7 @@ reddit.com##.promotedlink
 ||g.3gl.net^
 ||g.mashable.com^
 ||gamepk.us^
+||gekko.spiceworks.com^
 ||geolocation.onetrust.com^
 ||getdrip.com^
 ||github.com/_private/browser/stats
@@ -449,6 +464,7 @@ reddit.com##.promotedlink
 ||hdzog.com^
 ||heapanalytics.com^
 ||heartbeat.dm.origin.com^
+||histats.com^
 ||hlzdz.com^
 ||hoodline.com^
 ||ht.pornhub.com^
@@ -472,6 +488,7 @@ reddit.com##.promotedlink
 ||loggly.com^
 ||logs.datadoghq.com^
 ||logx.optimizely.com^
+||mailerlite.com^
 ||matheranalytics.com^
 ||mathtag.com^
 ||media.net^
@@ -487,6 +504,7 @@ reddit.com##.promotedlink
 ||ojrq.net^
 ||omtrdc.net^
 ||onesignal.com^
+||onscroll.com^
 ||openx.net^
 ||optimizely.com^
 ||p.ctpost.com/article?i=
@@ -506,6 +524,7 @@ reddit.com##.promotedlink
 ||pr.realvu.net^
 ||printfriendly.com^
 ||pro-market.net^
+||producebreed.com^$
 ||prpops.com^
 ||quantserve.com^
 ||radar.cedexis.com^
@@ -520,6 +539,7 @@ reddit.com##.promotedlink
 ||rover.ebay.$image
 ||rubiconproject.com^
 ||rum-static.pingdom.net^
+||s-onetag.com^
 ||s.206ads.com^
 ||s.ntv.io^
 ||sail-horizon.com^
@@ -565,6 +585,7 @@ reddit.com##.promotedlink
 ||trk12.ligigi.com^
 ||trowel.twitch.tv^
 ||tru.am^
+||truepush.com^
 ||trustarc.com^
 ||tsyndicate.com^
 ||twitter.com/1.1/jot/client_event.json
@@ -574,6 +595,7 @@ reddit.com##.promotedlink
 ||urbanconnection.imp2aff.com^
 ||us.edge.bamgrid.com^
 ||usabilla.com^
+||usage.trackjs.com^
 ||vilynx.com^
 ||widget.intercom.io^
 ||widgets.outbrain.com^
