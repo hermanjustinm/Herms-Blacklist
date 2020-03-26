@@ -13,6 +13,7 @@
 ###ad_3
 ###ad_4
 ###ad_5
+###article-reaction-actions
 ###banner_full
 ###bottom_ad
 ###bottom_ad_wrapper
@@ -23,13 +24,20 @@
 ###cookie-preferences
 ###cookiePrompt
 ###ensNotifyBanner
+###fan-exit
+###fanback
 ###fbVideoStreamingReactionsTray
 ###floating_subscribe
 ###footer-email-form
+###heroku-cookie-banner
+###hireme
 ###interstitial_ad
+###js-gdpr-consent-banner
 ###leaderboard_bottom_ad
 ###leaderboard_top_ad
 ###lean_overlay
+###masthead-ad
+###mc_embed_signup
 ###medrec_bottom_ad
 ###medrec_top_ad
 ###merch-shelf
@@ -101,6 +109,7 @@
 ##.article-social
 ##.banner-bottom
 ##.banner_N
+##.base-article-show-sidebar-variant
 ##.bbccom_advert
 ##.block-ads
 ##.bottom-ad
@@ -128,9 +137,11 @@
 ##.dcmads
 ##.div-gpt-ad
 ##.eu-cookie-banner
+##.everyonelovesstackoverflow
 ##.ezoic-ad
 ##.fa-facebook-square
 ##.fa-twitter-square
+##.fb-like
 ##.fb-like-box
 ##.fbs-ad
 ##.footer-newsletter
@@ -159,9 +170,11 @@
 ##.playerads
 ##.post-ads
 ##.premiumPromoBannerWrapper
+##.primary-sticky-nav-author.primary-sticky-nav-element
 ##.privacy-banner
 ##.privacy-content
 ##.promotedlink
+##.ptgncdn_holder
 ##.realsex
 ##.remove-ads
 ##.removeAdsStyle
@@ -172,6 +185,8 @@
 ##.share-box
 ##.share-button
 ##.share-buttons
+##.share-icons
+##.share-row
 ##.share-sites-thumbs
 ##.share-text
 ##.shareIcons
@@ -202,6 +217,7 @@
 ##.tads
 ##.top-ad
 ##.topbannerAd
+##.twitter-share-button
 ##.twitter.icon
 ##.up-arrow
 ##.video-ads
@@ -219,10 +235,13 @@
 ##[aria-label="cookieconsent"]
 ##[class*="socialLink"]
 ##[href^="//twitter.com/share"]
+##[title^="Follow me on "]
+##[title^="Follow us on "]
 ##[title^="Share on Facebook"]
 ##[title^="Share on Twitter"]
 ##a[href*=".purple6401.com/"]
 ##a[href*="facebook.com/sharer/sharer.php?"]
+##a[href="https://twitter.com/share"]
 ##a[href^="/ads/"]
 ##a[href^="/anonymous-download/?"][target="_blank"][id]
 ##a[href^="http://vk.com/share.php?"]
@@ -230,6 +249,7 @@
 ##a[href^="http://www.linkedin.com/shareArticle?"]
 ##a[href^="http://www.stumbleupon.com/submit?"]
 ##a[href^="https://clickadilla.com/"]
+##a[href^="https://deliver.ptgncdn.com/"]
 ##a[href^="https://pinterest.com/pin/create/"]
 ##a[href^="https://plus.google.com/share"]
 ##a[href^="https://twitter.com/intent/follow?"]
@@ -238,7 +258,11 @@
 ##a[href^="https://www.facebook.com/dialog/share?"]
 ##a[href^="https://www.facebook.com/sharer.php?"]
 ##a[href^="https://www.facebook.com/sharer/sharer.php"]
+##a[href^="https://www.linkedin.com/shareArticle?"]
+##a[href^="https://www.reddit.com/submit?"]
 ##a[href^="whatsapp://send?text="]
+##a[title="Facebook"]
+##a[title="Twitter"]
 ##a[title^="Share on Pinterest"]
 ##body[style*="overflow: hidden;"] .XQXOT:style(width: calc(100% - 12px) !important; padding-right: 0 !important;)
 ##div[class^="index_adAfterContent_"]
@@ -248,6 +272,7 @@
 ##div[id^="sidebar-btf-"]
 ##img[title="Facebook"]
 ##partner-banner
+#a[href*=".com/track/"]
 -ad/dist/
 -analytics/analytics.
 -event-tracking.
@@ -276,11 +301,14 @@
 /chartbeatanalytics/*
 /client_204$image
 /cookie-banner
+/cookiechoices.
 /csi_204?$image
 /domainads/*
 /dwanalytics-
 /fbevents.js
 /footer/facebook.
+/footer/instagram.
+/footer/youtube.
 /gen_204$image
 /gen_204$ping
 /gen_204?$ping
@@ -295,14 +323,17 @@
 /ls.gif?
 /mistats/*
 /mybbc-analytics
+/onesignal-free-
 /onetrust/consent/*
 /optimizely/*$script
 /optimizelyjs/*
 /referrer.js
 /rendertimingpixel.
 /rest/analytics/*
+/rollbar.js
 /sailthru-
 /shared/ads.
+/shopify-boomerang-
 /show_ads.js
 /show_ads.js$script
 /social-warfare/*
@@ -312,10 +343,12 @@
 /wp-content/*instagram.png
 /wp-content/*twitter.png
 ?adtype=
+_ad.gif|
 _pixel_test/?
 instagram.com##.ZUqME.N9d2H[style="width: 100%;"]
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 reddit.com##.promotedlink
+|metrics.readme.io^
 ||*.crashlytics.com^
 ||112.2o7.net^
 ||3lift.com^
@@ -339,6 +372,7 @@ reddit.com##.promotedlink
 ||adservice.google.com^
 ||adspade.imp2aff.com^
 ||adsperfection.imp2aff.com^
+||adthrive.com^
 ||advertising.com^
 ||alb.reddit.com^
 ||alphonso.tv^
@@ -489,6 +523,7 @@ reddit.com##.promotedlink
 ||logs.datadoghq.com^
 ||logx.optimizely.com^
 ||mailerlite.com^
+||majorgeeks.com/images/icons/red_icon_18x17px.png$image
 ||matheranalytics.com^
 ||mathtag.com^
 ||media.net^
@@ -512,9 +547,11 @@ reddit.com##.promotedlink
 ||parse.ly^
 ||parsely.com^
 ||parsley.com^
+||paypalobjects.com^*/pixel.gif
 ||pendo.io/data/ptm.gif
 ||permutive.com^
 ||phncdn.com/iframe
+||pi.lbbcdn.com/wp-content/uploads/2019/11/go-ad-free-sidebarv2.
 ||pinterest.com/v1/urls/count.json
 ||pixel-a.basis.net^
 ||pixel.facebook.com^
@@ -526,6 +563,7 @@ reddit.com##.promotedlink
 ||pro-market.net^
 ||producebreed.com^$
 ||prpops.com^
+||px.spiceworks.com^
 ||quantserve.com^
 ||radar.cedexis.com^
 ||realtime.services.disqus.com^
@@ -572,6 +610,7 @@ reddit.com##.promotedlink
 ||tags.tiqcdn.com^
 ||telemetry.malwarebytes.com/
 ||telemetry.malwarebytes.com^
+||thisiswaldo.com^
 ||tr.gingersoftware.com^
 ||track.hubspot.com^
 ||tracker.raspberrypi.org^
@@ -596,6 +635,7 @@ reddit.com##.promotedlink
 ||us.edge.bamgrid.com^
 ||usabilla.com^
 ||usage.trackjs.com^
+||v.shopify.com^
 ||vilynx.com^
 ||widget.intercom.io^
 ||widgets.outbrain.com^
