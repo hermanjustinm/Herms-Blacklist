@@ -1,12 +1,14 @@
 
-# Last Updated:     03.25.2020
+# Last Updated:     03.31.2020
 # License:          https://www.mozilla.org/en-US/MPL/2.0/
 # Project Homepage: https://hermanjust.in/
 # Title:            Herm's Ad Black List
-# Version:          0.2
+# Version:          0.7
 ###abAlert
 ###ad
 ###ad-footer
+###ad-north
+###ad-north-base
 ###ad-standard-wrap
 ###ad_1
 ###ad_2
@@ -15,6 +17,7 @@
 ###ad_5
 ###article-reaction-actions
 ###banner_full
+###botr_YdWWS5dA_ANn1bv7q_div
 ###bottom_ad
 ###bottom_ad_wrapper
 ###cliSettingsPopup
@@ -22,8 +25,13 @@
 ###consent_blackbar
 ###content-ad-top-zone-contener
 ###cookie-preferences
+###cookieNotice
 ###cookiePrompt
+###div_facebook_like
+###docked-player
+###dp-container
 ###ensNotifyBanner
+###facebook-icon
 ###fan-exit
 ###fanback
 ###fbVideoStreamingReactionsTray
@@ -41,27 +49,49 @@
 ###medrec_bottom_ad
 ###medrec_top_ad
 ###merch-shelf
+###my-adsHPSPON-bas
+###my-adsLREC
+###my-adsLREC4-base
+###my-adsMAST
 ###newsletter-signup
 ###offer-module
 ###onetrust-consent-sdk
+###pagelet_ego_pane
+###pagelet_ego_pane a
 ###pb_template
 ###pla-shelf
 ###player-ads
+###privacy_policy
 ###share-video
+###sidebar-ads
+###slot_LREC
+###snp-bld-step-1
+###snp-pop-838-overlay
 ###spotlight_ad
+###subscribe_email
 ###taboola
 ###taboola-homepage
 ###taboola-homepage-thumbnails
 ###taboola-right-rail-thumbnails
+###tads
+###tads.c
+###thumbs_div
 ###ticker.ytd-masthead
 ###top_ad
 ###top_ad_wrapper
+###u_fetchstream_1_1e
+###u_ps_0_0_h
 ###video-ad
+###vn1s0p2c0 > .ads-visurl
+###zIframe_docked-player
+##+js(twitch-videoad)
 ##.Ad
 ##.Adbox
+##.FooterSocial
 ##.GoogleDfpAd
 ##.GoogleDfpAd-wrapper
 ##.NewsletterModule
+##.SocialLinks
 ##.ZUqME:has(a[href^="/accounts/emailsignup/"])
 ##.ad
 ##.ad-
@@ -69,6 +99,7 @@
 ##.ad-300
 ##.ad-center
 ##.ad-choices
+##.ad-content
 ##.ad-desktop
 ##.ad-link
 ##.ad-links
@@ -94,6 +125,7 @@
 ##.ads
 ##.ads-
 ##.ads-ad
+##.ads-visurl
 ##.adsbox
 ##.adsbygoogle
 ##.adslot
@@ -101,6 +133,7 @@
 ##.adtester-container
 ##.adunitcontainer
 ##.advert-txt
+##.advertise-box
 ##.afs_ads
 ##.after_ad
 ##.ai.rw.rv.ru.s.rt.rs.rr.ha
@@ -136,23 +169,34 @@
 ##.dashicons-twitter
 ##.dcmads
 ##.div-gpt-ad
+##.et-social-icon
 ##.eu-cookie-banner
 ##.everyonelovesstackoverflow
 ##.ezoic-ad
 ##.fa-facebook-square
 ##.fa-twitter-square
+##.fa-vimeo.fa
+##.facebook-btn
 ##.fb-like
 ##.fb-like-box
+##.fb-page
+##.fb-xfbml-parse-ignore
 ##.fbs-ad
 ##.footer-newsletter
 ##.footer__social
 ##.footer_subscription_block
+##.google-btn
 ##.googleplus
+##.grecaptcha-badge
 ##.icon-share
 ##.in-content-ad
 ##.js-disclaimer
 ##.js-triggerShare
+##.jw-reset.jw-media
+##.jw-reset.jw-video
+##.jw-reset.jw-wrapper
 ##.jw-settings-sharing
+##.jwplayer__unmute
 ##.leaderboard-ad
 ##.leaderboard_ad
 ##.linkedin.icon
@@ -161,9 +205,16 @@
 ##.mobile-only-hide
 ##.newsletter-signup
 ##.newsletter-subscription
+##.o-facebook-1.uscb-footer-social-icon
+##.o-instagram-1.uscb-footer-social-icon
+##.o-linkedin-1.uscb-footer-social-icon
+##.o-twitter-1.uscb-footer-social-icon
+##.o-youtube-1.uscb-footer-social-icon
 ##.overlay-open-share
 ##.page-notifications
 ##.page__notifications
+##.pea_cook_more_info_popover
+##.pea_cook_wrapper
 ##.placeholder-ad
 ##.placeholderAd
 ##.plainAd
@@ -176,6 +227,7 @@
 ##.promotedlink
 ##.ptgncdn_holder
 ##.realsex
+##.region_redirect_popup_asset
 ##.remove-ads
 ##.removeAdsStyle
 ##.sc.sb.s.r.ai.sa
@@ -193,6 +245,7 @@
 ##.share__button
 ##.share_link
 ##.shareicon
+##.site-notification
 ##.skyscraper-ad
 ##.social-icons
 ##.socialIconsWrapper
@@ -205,6 +258,9 @@
 ##.sponsored-headlines
 ##.sponsored-tag
 ##.sponsored-text
+##.sqs-block-socialaccountlinks-v2
+##.sqs-svg-icon--list
+##.sticky-player-background
 ##.styles__container__
 ##.styles__notice__
 ##.subscribe-form
@@ -258,6 +314,7 @@
 ##a[href^="https://www.facebook.com/dialog/share?"]
 ##a[href^="https://www.facebook.com/sharer.php?"]
 ##a[href^="https://www.facebook.com/sharer/sharer.php"]
+##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 ##a[href^="https://www.linkedin.com/shareArticle?"]
 ##a[href^="https://www.reddit.com/submit?"]
 ##a[href^="whatsapp://send?text="]
@@ -265,6 +322,8 @@
 ##a[title="Twitter"]
 ##a[title^="Share on Pinterest"]
 ##body[style*="overflow: hidden;"] .XQXOT:style(width: calc(100% - 12px) !important; padding-right: 0 !important;)
+##bottomads
+##div[aria-label="Ads"]
 ##div[class^="index_adAfterContent_"]
 ##div[class^="index_adBeforeContent_"]
 ##div[id^="div-gpt-ad"]
@@ -276,10 +335,12 @@
 -ad/dist/
 -analytics/analytics.
 -event-tracking.
+-social-icon-
 .com/ads-
 .com/adx/
 .lms-analytics/
 /1clkn/*$script
+/_/lite/performance/*
 /ad-inserter
 /ad-third-party
 /ad-third-party/*
@@ -297,12 +358,18 @@
 /analytics/data-
 /assets/ads/*
 /assets/ads_
+/av/ads/*
+/b/ss/*&aqe=
 /b/ss/*/js-
+/census/recordhit
 /chartbeatanalytics/*
 /client_204$image
+/comscore_beacon/*
 /cookie-banner
 /cookiechoices.
 /csi_204?$image
+/curveball/ads/*
+/dfp.js
 /domainads/*
 /dwanalytics-
 /fbevents.js
@@ -314,12 +381,14 @@
 /gen_204?$ping
 /generate_204$other
 /google-tracking/*
+/hit_counter
 /house-ads/*
 /identica.png
 /js/ads.
 /js/tracking/*
 /lib/tracking/*
 /libs/cookieconsent2/*
+/likebox.
 /ls.gif?
 /mistats/*
 /mybbc-analytics
@@ -336,8 +405,11 @@
 /shopify-boomerang-
 /show_ads.js
 /show_ads.js$script
+/showads.
+/site_tracking.
 /social-warfare/*
 /svc/comscore/*
+/tagmanager/pptm.
 /video/tracking.js
 /wp-content/*facebook.png
 /wp-content/*instagram.png
@@ -379,10 +451,12 @@ reddit.com##.promotedlink
 ||amazon-adsystem.com^
 ||amplify.outbrain.com^
 ||analytics.^
+||analytics.archive.org^
 ||analytics.honeygain.com^
 ||analytics.plex.tv
 ||analytics.plex.tv^
 ||aolcdn.com/ads/^
+||api.amplitude.com^
 ||api.mixpanel.com^
 ||api.monetizer101.com^
 ||api.segment.io^
@@ -390,7 +464,9 @@ reddit.com##.promotedlink
 ||appcloud.mcafee.com^
 ||aps.hearstnp.com^
 ||assets.adobedtm.com^
+||b.stats.paypal.com^
 ||bat.bing.com^
+||beacon.riskified.com^
 ||beacons.gcp.gvt2.com^
 ||beacons.gvt2.com^
 ||beeftransmission.com^
@@ -408,7 +484,9 @@ reddit.com##.promotedlink
 ||bounceexchange.com^
 ||branch.io^
 ||bugsnag.com^
+||c.amazon-adsystem.com/aax2/apstag.js
 ||c.msn.com^
+||c.paypal.com^
 ||c2.taboola.com^
 ||carbonads.com^
 ||casalemedia.com^
@@ -419,6 +497,7 @@ reddit.com##.promotedlink
 ||cdn.optimizely.com^
 ||cdn.siftscience.com^
 ||cdn.taboola.com^
+||cdn.video.playwire.com/
 ||chartbeat.com^
 ||cl.easyjobaccess.com^
 ||clarium.global.ssl.fastly.net^
@@ -427,6 +506,7 @@ reddit.com##.promotedlink
 ||client-event-reporter.twitch.tv^
 ||client.crisp.chat^
 ||clk.myiads.com^
+||cloudflareinsights.com^
 ||cmp.network-n.com^
 ||collect.igodigital.com^
 ||collectcent.clqtrk.com^
@@ -435,19 +515,24 @@ reddit.com##.promotedlink
 ||collector.githubapp.com^
 ||conf.smartnews-ads.com^
 ||consensu.org
+||consent.cmp.oath.com^
 ||contentabc.com^
 ||cookiebot.com^
+||cookiex.ngd.yahoo.com^
 ||cp.effoulanponta.com^
 ||crashlytics.com^
 ||criteo.net^
 ||crsspzl.com^
 ||crwdcntrl.net^
 ||csi.gstatic.com^
+||ct.pinterest.com^
 ||customer.io^
+||d1z2jf7jlzjs58.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||deliver.ptgncdn.com^
 ||demdex.net^
 ||dev.visualwebsiteoptimizer.com^
+||device.maxmind.com^
 ||distrowatch.com/images/k/
 ||dlfvgndsdfsn.com^
 ||dotomi.com^
@@ -461,6 +546,7 @@ reddit.com##.promotedlink
 ||edigitalsurvey.com^
 ||effectivemeasure.net^
 ||etahub.com^
+||eurocookie.galilcloud.wixapps.net/popup?
 ||events.tubecup.org^
 ||everesttech.net^
 ||exelator.com^
@@ -469,16 +555,21 @@ reddit.com##.promotedlink
 ||exrtbsrv.com^
 ||extole.io^
 ||ezoic.net^
+||ezojs.com^
+||facebook.com/video/instream_video/$xmlhttprequest
 ||facebook.com/xti.php?
+||facebook.com^*/plugins/page.php?
 ||fastly-insights.com^
 ||foresee.com^
 ||fp.msedge.net^
+||fullstory.com^
 ||fundingchoicesmessages.google.com^
 ||fuzeclick.offerstrack.net^
 ||g.3gl.net^
 ||g.mashable.com^
 ||gamepk.us^
 ||gekko.spiceworks.com^
+||geo.yahoo.com^
 ||geolocation.onetrust.com^
 ||getdrip.com^
 ||github.com/_private/browser/stats
@@ -487,8 +578,11 @@ reddit.com##.promotedlink
 ||go.exrtbsrv.com^
 ||go.xhamsterlive.com^
 ||google-analytics.com^
+||google.com/_/dotssplashui/browserinfo
+||google.com/dssw.js
 ||google.com/pagead/^
 ||googleads.g.doubleclick.net^
+||googleadservices.com^
 ||googlesyndication.com^
 ||googletagmanager.com^
 ||googletagservices.com^
@@ -511,13 +605,17 @@ reddit.com##.promotedlink
 ||in.cuebiq.com^
 ||indexww.com^
 ||instagram.com/logging/
+||instagram.com/static/images/appstore-install-badges^
 ||instant.page^
+||iperceptions.com^
 ||ipify.org^
+||js.driftt.com^
 ||js.hs-scripts.com^
 ||jwpltx.com^
 ||kampyle.com^
 ||krxd.net^
 ||liadm.com^
+||links.services.disqus.com^
 ||localytics.com^
 ||loggly.com^
 ||logs.datadoghq.com^
@@ -531,8 +629,10 @@ reddit.com##.promotedlink
 ||moatads.com^
 ||msn.com/collect/
 ||munchkin.marketo.net^
+||mxpnl.com^
 ||n11.playgamescafe.com^
 ||newrelic.com^
+||news.google.com/_/v
 ||novelty.media^
 ||ntv.io^
 ||oggly.com^
@@ -543,11 +643,13 @@ reddit.com##.promotedlink
 ||openx.net^
 ||optimizely.com^
 ||p.ctpost.com/article?i=
+||p.typekit.net^
 ||pagead2.googlesyndication.com^
 ||parse.ly^
 ||parsely.com^
 ||parsley.com^
 ||paypalobjects.com^*/pixel.gif
+||pcrl.co/js/jstracker.min.js
 ||pendo.io/data/ptm.gif
 ||permutive.com^
 ||phncdn.com/iframe
@@ -564,6 +666,7 @@ reddit.com##.promotedlink
 ||producebreed.com^$
 ||prpops.com^
 ||px.spiceworks.com^
+||px.srvcs.tumblr.com^
 ||quantserve.com^
 ||radar.cedexis.com^
 ||realtime.services.disqus.com^
@@ -583,6 +686,8 @@ reddit.com##.promotedlink
 ||sail-horizon.com^
 ||sb.scorecardresearch.com^
 ||script.crazyegg.com^
+||segment.com^
+||segment.io^
 ||service.game-mode.net^
 ||service.maxymiser.net^
 ||sessions.bugsnag.com^
@@ -595,6 +700,7 @@ reddit.com##.promotedlink
 ||smetrics.bestbuy.com^
 ||snapwidget.com^
 ||speedcurve.com^
+||squarespace.com/universal/scripts-compressed/performance-$script,3p
 ||ssc.api.bbc.com^
 ||ssl.google-analytics.com^
 ||static.doubleclick.net^
@@ -605,9 +711,11 @@ reddit.com##.promotedlink
 ||stats.wp.com/
 ||stats.wp.com^
 ||summerhamster.com^
+||t.castle.io^
 ||t.kck.st^
 ||taboola.com^
 ||tags.tiqcdn.com^
+||tapfiliate.com^
 ||telemetry.malwarebytes.com/
 ||telemetry.malwarebytes.com^
 ||thisiswaldo.com^
@@ -642,6 +750,7 @@ reddit.com##.promotedlink
 ||wpu.sh^
 ||ws.sharethis.com^
 ||www.admob.com^
+||www.dwin1.com^
 ||www.gamepk.us^
 ||www.ltv-mob.com^
 ||www.ojrq.net^
@@ -652,9 +761,12 @@ reddit.com##.promotedlink
 ||xhcdn.com/js/track
 ||xhcdn.com/js/track^
 ||yadro.ru^ 
+||yahoo.com/_td_api/beacon/
 ||yieldmo.com^
+||yimg.com/uu/api/*/ads/
 ||youtube.com/api/stats/qoe?
 ||youtube.com/pagead/^
 ||z-na.amazon-adsystems.com^
 ||zdbb.net^
 ||zog.link^
+||zopim.com^
