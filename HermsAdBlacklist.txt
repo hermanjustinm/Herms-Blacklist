@@ -91,6 +91,7 @@
 ##.GoogleDfpAd
 ##.GoogleDfpAd-wrapper
 ##.NewsletterModule
+##.OUTBRAIN
 ##.SocialLinks
 ##.ZUqME:has(a[href^="/accounts/emailsignup/"])
 ##.ad
@@ -177,10 +178,12 @@
 ##.fa-twitter-square
 ##.fa-vimeo.fa
 ##.facebook-btn
+##.facebook_icon
 ##.fb-like
 ##.fb-like-box
 ##.fb-page
 ##.fb-xfbml-parse-ignore
+##.fb_btn
 ##.fbs-ad
 ##.footer-newsletter
 ##.footer__social
@@ -188,6 +191,7 @@
 ##.google-btn
 ##.googleplus
 ##.grecaptcha-badge
+##.horizontal_ad
 ##.icon-share
 ##.in-content-ad
 ##.js-disclaimer
@@ -219,6 +223,7 @@
 ##.placeholderAd
 ##.plainAd
 ##.playerads
+##.policy-bar
 ##.post-ads
 ##.premiumPromoBannerWrapper
 ##.primary-sticky-nav-author.primary-sticky-nav-element
@@ -230,6 +235,7 @@
 ##.region_redirect_popup_asset
 ##.remove-ads
 ##.removeAdsStyle
+##.rss
 ##.sc.sb.s.r.ai.sa
 ##.se.r.ai.gr.sd
 ##.share-a
@@ -243,7 +249,11 @@
 ##.share-text
 ##.shareIcons
 ##.share__button
+##.share_digg
+##.share_facebook
 ##.share_link
+##.share_stumbleupon
+##.share_twitter
 ##.shareicon
 ##.site-notification
 ##.skyscraper-ad
@@ -260,6 +270,7 @@
 ##.sponsored-text
 ##.sqs-block-socialaccountlinks-v2
 ##.sqs-svg-icon--list
+##.square_ad
 ##.sticky-player-background
 ##.styles__container__
 ##.styles__notice__
@@ -273,6 +284,7 @@
 ##.tads
 ##.top-ad
 ##.topbannerAd
+##.twitter-follow-button
 ##.twitter-share-button
 ##.twitter.icon
 ##.up-arrow
@@ -365,6 +377,7 @@
 /chartbeatanalytics/*
 /client_204$image
 /comscore_beacon/*
+/concert_ads.
 /cookie-banner
 /cookiechoices.
 /csi_204?$image
@@ -372,6 +385,7 @@
 /dfp.js
 /domainads/*
 /dwanalytics-
+/entry_stats?
 /fbevents.js
 /footer/facebook.
 /footer/instagram.
@@ -396,6 +410,7 @@
 /onetrust/consent/*
 /optimizely/*$script
 /optimizelyjs/*
+/prebid-
 /referrer.js
 /rendertimingpixel.
 /rest/analytics/*
@@ -406,6 +421,7 @@
 /show_ads.js
 /show_ads.js$script
 /showads.
+/site_stats.
 /site_tracking.
 /social-warfare/*
 /svc/comscore/*
@@ -520,6 +536,7 @@ reddit.com##.promotedlink
 ||cookiebot.com^
 ||cookiex.ngd.yahoo.com^
 ||cp.effoulanponta.com^
+||cpmstar.com^
 ||crashlytics.com^
 ||criteo.net^
 ||crsspzl.com^
@@ -708,6 +725,7 @@ reddit.com##.promotedlink
 ||static.hotjar.com^
 ||stats.g.doubleclick.net^
 ||stats.momentumdash.com^
+||stats.pusher.com^
 ||stats.wp.com/
 ||stats.wp.com^
 ||summerhamster.com^
@@ -744,6 +762,7 @@ reddit.com##.promotedlink
 ||usabilla.com^
 ||usage.trackjs.com^
 ||v.shopify.com^
+||videoplayerhub.com^
 ||vilynx.com^
 ||widget.intercom.io^
 ||widgets.outbrain.com^
