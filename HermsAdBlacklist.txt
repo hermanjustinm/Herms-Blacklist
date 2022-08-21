@@ -1,5 +1,5 @@
 
-# Last Updated:     03.31.2020
+# Last Updated:     07.31.2022
 # License:          https://www.mozilla.org/en-US/MPL/2.0/
 # Project Homepage: https://hermanjust.in/
 # Title:            Herm's Ad Black List
